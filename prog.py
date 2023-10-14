@@ -31,14 +31,14 @@ for elem in kstest_res:
     print(f'Значение статистики: {elem.statistic}, pvalue: {elem.pvalue}')
 
 
-'''
+
 iris_pd.boxplot()
 plt.show()
 sns.heatmap(corr_matr, annot= True, vmin=-1, vmax=1)
 plt.show()
 sns.heatmap(pcorr_matr, annot= True, vmin=-1, vmax=1)
 plt.show()
-'''
+
 
 iris_pd.iloc[:,:-1].hist()
 plt.show()
